@@ -10,7 +10,21 @@ Framework used and steps followed:
 
 1.Implemented with BDD Framework with cucumber.
 2.Used Page Object Model for code readability and reusability.
-3.Listed manual testcases for Search Functionality in Search ManualTC.feature
-4.Listed automation testcases for Question1 and 2 in AutomationTC.feature
+3.Listed manual testcases for Search Functionality in Search ManualTC.feature in(src/test/resources/Features)
+4.Listed automation testcases for Question1 and 2 in AutomationTC.feature in (src/test/resources/Features)
 5.Has written step definitions for the Automation scenarios.
 6.Added pretty report plugin for reporting purpose.Can refer index.html in targets folder to refer execution status
+
+
+
+Best Practices followed:
+
+1.Used Singleton Design Pattern.
+2.Used Page Object Model
+3.WebDriver intialisation is done in Init Class outside the code
+4.Loaded the application url and chromedriver path from the properties file
+5.Required testdata is passed from the Examples in feature.
+
+Able to complete the test successfully with all the scenarios 
+
+
